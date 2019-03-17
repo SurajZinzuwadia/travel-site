@@ -450,12 +450,12 @@ template {
   display: none;
 }
 
-body {
+body{
 	font-family: 'Roboto' ,sans-serif;
 	color:#333;
 }
 
-img {
+img{
 	max-width: 100%;
 	height: auto;
 }
@@ -465,8 +465,8 @@ img {
 	        box-sizing: border-box;
 }
 
-a {
-	color : #d59541;
+a{
+	color: #d59541;
 }
 
 .large-hero{
@@ -498,7 +498,7 @@ a {
 
 .large-hero__title{
 		font-weight: 300;
-		color : #2f5572;
+		color: #2f5572;
 		margin: 0;
 		font-size: 2.4rem;
 
@@ -514,7 +514,7 @@ a {
 
 .large-hero__subtitle{
 		font-weight: 300;
-		color : #2f5572;
+		color: #2f5572;
 		font-size: 1.5rem;
 		margin: 0;
 	}
@@ -583,7 +583,6 @@ a {
 .wrapper--no-padding-untill-medium{
 		padding-left: 0;
 		padding-right: 0;
-
 	}
 
 @media(min-width: 800px){
@@ -591,7 +590,6 @@ a {
 .wrapper--no-padding-untill-medium{
 			padding-left: 18px;
 			padding-right: 18px
-
 	}
 	}
 
@@ -645,7 +643,7 @@ a {
 @media(min-width: 800px){
 
 .page-section--no-b-padding-untill-medium{
-				padding-bottom:4.5rem
+			padding-bottom: 4.5rem
 	}
 	}
 
@@ -726,7 +724,7 @@ a {
 	}
 
 .headline--b-margin-small{
-		margin-bottom: . 5em;
+		margin-bottom: .5em;
 	}
 
 .headline--b-margin-large{
@@ -744,136 +742,126 @@ a {
 	display: table;
 	}
 
-.row--t-padding{
- 	padding-top:80px; 
- }
-
-.row--gutters{
-	margin-right: -65px;
-}
-
-.row--gutters-large{
-	margin-right: -100px;
-}
-
-.row--gutters-small
-{
-	margin-right: -45px;
-}
-
-.row--gutters > div
-	{
-		padding-right: 65px; 
+.row--t-padding {
+		padding-top: 80px;
 	}
 
-.row--gutters-large > div
-	{
-		padding-right: 100px; 
+.row--gutters {
+		margin-right: -65px;
 	}
 
-.row--gutters-small > div
-	{
-		padding-right: 45px; 
+.row--gutters-large {
+		margin-right: -100px;
 	}
 
-.row__b-margin-untill-medium{
-	margin-bottom: 1rem;
-}
+.row--gutters-small {
+		margin-right: -45px;
+	}
+
+.row--gutters>div {
+		padding-right: 65px;
+	}
+
+.row--gutters-large>div {
+		padding-right: 100px;
+	}
+
+.row--gutters-small>div {
+		padding-right: 45px;
+	}
+
+.row__b-margin-untill-medium {
+		margin-bottom: 1rem;
+	}
 
 @media(min-width: 800px){
-
-
-	.row__b-margin-untill-medium{
-	margin-bottom: 0rem;
-}
-	.row__medium-4{
-		float: left;
-		width: 33.33%;
-	}
-
-	.row__medium-4--larger{
-		width: 37%;
-	}
-
-	.row__medium-6{
-		float: left;
-		width: 50%;
-	}
-
-	.row__medium-8{
-		float: left;
-		width: 66.66%;
-	}
-	.row__medium-8--smaller{
-		width: 63%;
-	}
+		.row__b-margin-untill-medium {
+			margin-bottom: 0rem;
+		}
+		.row__medium-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.row__medium-4--larger {
+			width: 37%;
+		}
+		.row__medium-6 {
+			float: left;
+			width: 50%;
+		}
+		.row__medium-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.row__medium-8--smaller {
+			width: 63%;
+		}
 	}
 
 @media(min-width: 1010px){
-
-
-	.row__b-margin-untill-large{
-	margin-bottom: 0rem;
-}
-	.row__large-4{
-		float: left;
-		width: 33.33%;
-	}
-
-	.row__large-4--larger{
-		width: 37%;
-	}
-
-	.row__large-6{
-		float: left;
-		width: 50%;
-	}
-
-	.row__large-8{
-		float: left;
-		width: 66.66%;
-	}
-	.row__large-8--smaller{
-		width: 63%;
-	}
+		.row__b-margin-untill-large {
+			margin-bottom: 0rem;
+		}
+		.row__large-4 {
+			float: left;
+			width: 33.33%;
+		}
+		.row__large-4--larger {
+			width: 37%;
+		}
+		.row__large-6 {
+			float: left;
+			width: 50%;
+		}
+		.row__large-8 {
+			float: left;
+			width: 66.66%;
+		}
+		.row__large-8--smaller {
+			width: 63%;
+		}
 	}
 
 @media(min-width: 800px){
 
-.row--equal-height-at-medium{
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex
-}
+.row--equal-height-at-medium {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex
+	}
 	}
 
-.row--equal-height-at-medium > div{
-		float: none;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-	}
+.row--equal-height-at-medium>div {
+			float: none;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+		}
 
 @media(min-width: 1010px){
 
-.row--equal-height-at-large{
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex
-}
+.row--equal-height-at-large {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex
+	}
 	}
 
-.row--equal-height-at-large > div{
-		float: none;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-	}
+.row--equal-height-at-large>div {
+			float: none;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+		}
 
 .generic-content-container p{
 		font-weight: 300;
 		line-height: 1.65;
 		margin: 0 0 1.8rem 0;
+	}
+
+.generic-content-container p a{
+		font-weight: 700;
 	}
 
 @media(min-width: 530px){
@@ -883,13 +871,7 @@ a {
 }
 	}
 
-.generic-content-container p a{
- 	font-weight: 700;
-
-
- }
-
-.section-title{
+.section-title {
 	font-size: 2.55rem;
 	font-weight: 300;
 	text-align: center;
@@ -897,37 +879,35 @@ a {
 
 @media(min-width: 530px){
 
-.section-title{
+.section-title {
 		font-size: 3.75rem
 }
 	}
 
-.section-title strong{
+.section-title strong {
 		font-weight: 500;
 	}
 
-.section-title--blue{
-		color:#2f5572;
+.section-title--blue {
+		color: #2f5572;
 	}
 
-.section-title__icon{
+.section-title__icon {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: .6rem;
-
 	}
 
 @media(min-width: 530px){
 
-.section-title__icon{
+.section-title__icon {
 			position: relative;
 			top: 8px;
 			margin-right: .5rem;
 			margin-left: 0;
 			margin-bottom: 0;
 			display: inline-block
-
 	}
 	}
 
@@ -1018,9 +998,6 @@ a {
 		margin: .25rem 0 1rem 0;
 	}
 
-/*do not edit modules/_sprite directly as it is generated automatically by Gulp 
-Instead edit gulp/templates/sprite*/
-
 .icon{
 	background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
 }
@@ -1028,84 +1005,83 @@ Instead edit gulp/templates/sprite*/
 .icon--clear-view-escapes{
 			width :142.4px;
 			height: 59.53px;
-			background-position:0 0 ;
+			background-position:0 0;
 		}
 
 .icon--comment{
 			width :64px;
 			height: 64px;
-			background-position:99.70443349753694% 0 ;
+			background-position:99.70443349753694% 0;
 		}
 
 .icon--facebook{
 			width :21.23px;
 			height: 42.01px;
-			background-position:26.040607071652357% 45.795830448496034% ;
+			background-position:26.040607071652357% 45.795830448496034%;
 		}
 
 .icon--fire{
 			width :56px;
 			height: 64px;
-			background-position:0 99.56481481481481% ;
+			background-position:0 99.56481481481481%;
 		}
 
 .icon--globe{
 			width :64px;
 			height: 64px;
-			background-position:27.586206896551722% 99.56481481481481% ;
+			background-position:27.586206896551722% 99.56481481481481%;
 		}
 
 .icon--instagram{
 			width :42.01px;
 			height: 42.01px;
-			background-position:63.2917018534157% 49.234556504346486% ;
+			background-position:63.2917018534157% 49.234556504346486%;
 		}
 
 .icon--mail{
 			width :64px;
 			height: 48px;
-			background-position:0 48.00806451612903% ;
+			background-position:0 48.00806451612903%;
 		}
 
 .icon--rain{
 			width :64px;
 			height: 64px;
-			background-position:99.70443349753694% 59.25925925925926% ;
+			background-position:99.70443349753694% 59.25925925925926%;
 		}
 
 .icon--star{
 			width :64px;
 			height: 64px;
-			background-position:59.11330049261084% 99.56481481481481% ;
+			background-position:59.11330049261084% 99.56481481481481%;
 		}
 
 .icon--twitter{
 			width :51.78px;
 			height: 42.06px;
-			background-position:94.04330452560171% 98.50700323226104% ;
+			background-position:94.04330452560171% 98.50700323226104%;
 		}
 
 .icon--wifi{
 			width :60px;
 			height: 64px;
-			background-position:68.79227053140097% 0 ;
+			background-position:68.79227053140097% 0;
 		}
 
 .icon--youtube{
 			width :34.75px;
 			height: 42px;
-			background-position:36.69752421959096% 45.792307692307695% ;
+			background-position:36.69752421959096% 45.792307692307695%;
 		}
 
-.site-footer{
+.site-footer {
 	background-color: #2f5572;
 	color: #FFF;
 	padding: .5rem 0;
 	text-align: center;
 }
 
-.site-footer__text
-	{
+.site-footer__text {
 		display: block;
 		margin-bottom: 1rem;
 		font-weight: 200;
@@ -1113,34 +1089,42 @@ Instead edit gulp/templates/sprite*/
 
 @media(min-width: 800px){
 
-.site-footer__text
-	{
+.site-footer__text {
 			display: inline;
 			margin-bottom: 0;
 			margin-right: 1.4rem
 	}
 	}
 
-.site-header{
+.site-header {
 	padding: 10px 0;
 	position: absolute;
 	z-index: 2;
 	width: 100%;
+	-webkit-transition: background-color .3s ease-out;
+	transition: background-color .3s ease-out;
 }
+
+.site-header--is-expanded {
+		background-color: rgba(47, 85, 114, .55);
+	}
 
 @media(min-width: 800px){
 
-.site-header{
-		background-color: rgba(47,85,114,.3)
+.site-header {
+		background-color: rgba(47, 85, 114, .3)
 }
 	}
 
-.site-header__btn-container{
-		float: right;
+@media(min-width: 800px){
+
+.site-header__btn-container {
+			float: right
+	}
 	}
 
-.site-header__logo{
-		top:0;
+.site-header__logo {
+		top: 0;
 		position: absolute;
 		background-color: #2f5572;
 		padding: 25px 36px;
@@ -1153,18 +1137,18 @@ Instead edit gulp/templates/sprite*/
 
 @media(min-width: 800px){
 
-.site-header__logo{
-			left:auto;
+.site-header__logo {
+			left: auto;
 			-webkit-transform: translateX(0);
 			        transform: translateX(0)
 	}
 	}
 
-.site-header__logo__graphic{
-	text-indent: -9999px; 
+.site-header__logo__graphic {
+		text-indent: -9999px;
 	}
 
-.site-header__menu-icon{
+.site-header__menu-icon {
 		width: 20px;
 		height: 20px;
 		background-color: #FFF;
@@ -1175,25 +1159,36 @@ Instead edit gulp/templates/sprite*/
 
 @media(min-width: 800px){
 
-.site-header__menu-icon{
+.site-header__menu-icon {
 			display: none
 	}
 	}
 
-.site-header__menu-content{
+.site-header__menu-content {
 		display: none;
+		padding-top: 100px;
+		text-align: center;
 	}
 
 @media(min-width: 800px){
 
-.site-header__menu-content{
-			display: block
+.site-header__menu-content {
+			display: block;
+			padding-top: 0
 	}
 	}
 
+.site-header__menu-content--is-visible {
+			display: block;
+		}
+
+@media(min-width: 800px){
+
 .primary-nav--pull-right{
-	 	float: right;
+	 		float: right
+	 	
 	 }
+	}
 
 .primary-nav ul{
 	 	margin:0;
@@ -1208,9 +1203,29 @@ Instead edit gulp/templates/sprite*/
 
 .primary-nav li{
 	 	list-style: none;
-	 	float:left;
-	 	padding-right: 20px;
+	 	display: inline-block;
+	 	padding-right:7px;
 	 }
+
+@media(min-width: 800px){
+
+.primary-nav li{
+	 		padding-right:20px;
+	 		float:left;
+	 		display: block
+	 }
+	}
+
+.primary-nav li:last-child{
+	 	padding-right: 0;
+	 }
+
+@media(min-width: 800px){
+
+.primary-nav li:last-child{
+	 		padding-right:20px
+	 }
+	}
 
 .primary-nav a{
 	 	color: #FFF;

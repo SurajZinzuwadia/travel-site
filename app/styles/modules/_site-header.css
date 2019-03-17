@@ -1,58 +1,57 @@
-.site-header{
+.site-header {
 	padding: 10px 0;
 	position: absolute;
 	z-index: 2;
 	width: 100%;
-
-	@mixin atMedium{
-		background-color: rgba($mainblue,.3);
+	transition: background-color .3s ease-out;
+	&--is-expanded {
+		background-color: rgba(47, 85, 114, .55);
 	}
-
-
-	&__btn-container{
-		float: right;
+	@mixin atMedium {
+		background-color: rgba(47, 85, 114, .3);
 	}
-
-
-	&__logo{
-		top:0;
+	&__btn-container {
+		@mixin atMedium {
+			float: right;
+		}
+	}
+	&__logo {
+		top: 0;
 		position: absolute;
 		background-color: $mainblue;
 		padding: 25px 36px;
 		left: 50%;
 		transform: translateX(-50%) scale(.8);
 		transform-origin: 50% 0;
-
-		@mixin atMedium{
-			left:auto;
+		@mixin atMedium {
+			left: auto;
 			transform: translateX(0);
 		}
 	}
-
-	&__logo__graphic{
-	text-indent: -9999px; 
+	&__logo__graphic {
+		text-indent: -9999px;
 	}
-
-	&__menu-icon{
+	&__menu-icon {
 		width: 20px;
 		height: 20px;
 		background-color: #FFF;
 		position: absolute;
 		top: 10px;
 		right: 10px;
-
-		@mixin atMedium{
+		@mixin atMedium {
 			display: none;
 		}
 	}
-
-	&__menu-content{
+	&__menu-content {
 		display: none;
-
-
-		@mixin atMedium{
+		padding-top: 100px;
+		text-align: center;
+		@mixin atMedium {
+			display: block;
+			padding-top: 0;
+		}
+		&--is-visible {
 			display: block;
 		}
 	}
 }
-
