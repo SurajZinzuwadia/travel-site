@@ -1,6 +1,9 @@
 .primary-nav{
+	padding-top: 10px;
+	@mixin atMedium{
+		padding-top: 0;
+	}
 	 &--pull-right{
-
 	 	@mixin atMedium{
 	 		float: right;
 	 	}
@@ -38,6 +41,14 @@
 	 	text-decoration: none;
 	 	font-weight: 300;
 	 	display: block;
-	 	padding: 12px;
+	 	padding: 5px 8px;
+	 	font-size: .8rem;
+	 	background-color: rgba($mainblue, .5);
+
+	 	@mixin atMedium{
+	 		padding: 12px 0;
+	 		font-size: 1rem;
+	 		background-color: transparent;
+	 	}
 	 }
 }
